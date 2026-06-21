@@ -2,6 +2,8 @@
 
 An implementation of **FFJORD (Free-Form Jacobian of Reversible Dynamics)** built entirely from mathematical primitives and foundational PyTorch deep learning blocks. This project bypasses high-level wrappers to construct Continuous Normalizing Flows (CNFs) via Neural Ordinary Differential Equations (Neural ODEs), optimizing generative density estimation on the MNIST dataset.
 
+Project scope was an implementation of the **Grathwohl, W., Chen, R. T. Q., Bettencourt, J., Sutskever, I., & Duvenaud, D. (2018). FFJORD: Free-Form Continuous Dynamics for Scalable Reversible Generative Models.** research paper. 
+
 ## 🚀 Key Milestones & Architecture
 
 * **From-Scratch Foundations:** Developed custom explicit Runge-Kutta 4th Order (**RK4**) and adaptive **dopri5** (Dormand-Prince) Ordinary Differential Equation solvers to handle continuous time state transformations.
@@ -47,4 +49,4 @@ cd ffjord-model-implementation
 ```
 
 ### 2. Clone the Repository
-For the full line-by-line implementation and project report, refer to the Project_Report.pdf file in this repository!
+For the full line-by-line implementation and project report, refer to the **Project_Report.pdf** file in this repository!
